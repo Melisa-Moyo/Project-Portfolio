@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #ea4f90;
+  --branding-color: #ea4f90;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -47,7 +47,7 @@ p {
   padding: 20px 75px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--primary-color);
+  background: var(--branding-color);
   box-shadow: var(--box-shadow);
   color: white;
   font-size: 20px;
@@ -56,4 +56,36 @@ p {
 .primary-link:hover {
   color: #8b3c5d;
   background-color: #dda0dd;
+}
+.project-desciption {
+  padding: 120px 60px;
+}
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
 }
