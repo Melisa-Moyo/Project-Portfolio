@@ -59,6 +59,7 @@ p {
 }
 .project-desciption {
   padding: 120px 60px;
+  margin-top: -200px;
 }
 .btn-branding-outline {
   color: var(--branding-color);
@@ -68,10 +69,60 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.about-text {
+  font-weight: normal;
+}
+.project-links {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-left: 35px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.project-links a {
+  font-size: 10px;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 10px 30px;
+  border: 1px solid #c3c4c5;
+  border-radius: 5px;
+  background-color: #e7d8de;
+  color: #dda0dd;
+}
+.project-links a:hover {
+  background-color: var(--branding-color);
+  color: var(--secondary-color);
+  transition: all 0.3s ease-in;
+}
+.socials-text {
+  font-size: 50px;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--branding-color);
+  font-size: 28px;
+  text-decoration: none;
+}
 
+.email-link:hover {
+  text-decoration: underline;
+  color: #8b3c5d;
+}
+.contact-socials {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.contact-socials li {
+  margin-right: 10px;
+}
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 47px;
     line-height: 2;
   }
 
@@ -87,5 +138,6 @@ p {
   .project-desciption {
     padding: 0;
     text-align: center;
+    margin-top: 40px;
   }
 }
